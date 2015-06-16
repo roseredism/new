@@ -1,0 +1,70 @@
+body{
+	font-family:$base-font-family;
+	font-size:$base-font-size;
+	line-height:1.7em;
+	color:$base-font-color;
+	
+}
+
+.quote{
+	font-family: 'Indie Flower', cursive;
+}
+
+body{
+@include linear-gradient(#ffffff, $secondary-color);
+}
+
+a{
+	color: $dark-color;
+}
+
+picture{
+	width:100%;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+input, textarea, button{
+	@include border-radius(0);
+}
+
+img.showcase{
+	width:100%
+}
+
+
+img.kuva{
+	width:100%
+}
+
+img.hockey {
+  background: url("img/hockey.jpg") no-repeat;
+  @include image-2x("img/hockey2.jpg", 100px, 25px);
+}
+img.nyk {
+  background: url("img/nyk.jpg") no-repeat;
+  @include image-2x("img/nyk.jpg", 100px, 25px);
+}
+img.old {
+  background: url("img/old.jpg") no-repeat;
+  @include image-2x("img/old2.jpg", 100px, 25px);
+}
+
+img.race {
+  background: url("img/race.jpg") no-repeat;
+  @include image-2x("img/race.jpg", 100px, 25px);
+}
+
+
+
+.juttu{
+	@include add-border(2px, $primary-color, all);
+	@include border-radius(5px);
+	padding: 13px 15px;
+	margin-bottom: 10px;
+}
+.tab-primary{
+	@include add-border(1px, $secondary-color, all);
+	padding: 13px 15px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,32 @@
+.search{
+	width:100%;
+	
+		h3{
+		margin-top:0;
+		padding-top:0;
+	}
+
+
+	input[type="search"]{
+		border:0;
+		height:37px;
+		width:80%;
+		margin-top:10px;
+		border:2px solid $secondary-color;
+		font-size:18px;
+		padding-left:10px;
+		padding-bottom:5px;
+
+	}
+	
+	.fa-search{
+		border:0;
+		background:none;
+		padding:0;
+		vertical-align:top;
+		margin-left:-4px;
+	}
+
+	
+
+ }

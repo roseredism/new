@@ -1,0 +1,32 @@
+
+
+.buttons {
+	
+    width: 300px; 
+	height: 100px;
+    background: url('img/social_icons.png');
+    margin: 10px auto; 
+	padding: 0;
+    position: absolute;
+	
+	
+   li {
+    margin: 0; 
+	padding: 0; 
+	list-style: none;
+    position: absolute;}
+	
+	li, a {
+    height: 100px; 
+	display: block;
+
+	}
+	
+	.fb {left: 0px; width: 100px; }
+	.tw {left: 100px; width: 100px; }
+	.ig {left: 220px; width: 100px; }
+	
+
+ 
+	
+}
